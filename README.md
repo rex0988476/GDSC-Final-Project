@@ -9,7 +9,6 @@ This repository contains the code, documentation, and visualizations for the CE6
 1. [Project Objectives](#project-objectives)
 2. [Datasets](#datasets)
 3. [Usage in Google Colab](#usage-in-google-colab)
-4. [Usage](#usage)
 5. [Methods and Models](#methods-and-models)
 6. [Results](#results)
 7. [Reproducibility](#reproducibility)
@@ -43,5 +42,27 @@ Source: [Dataset Link](https://www.kaggle.com/datasets/samiraalipour/genomics-of
 
 4. **Modify Code**:
    - You can modify and experiment directly within Colab for your custom needs.
+
+---
+
+## Methods and Models
+- **Features**:
+  - WIP.
+- **Techniques**: Regression.
+- **Models**:
+  - XGBoost
+  - Random Forest
+
+---
+
+## Results
+The following table summarizes the evaluation metrics for the two models used in the project:
+
+| Model | Train Mean Squared Error (MSE) | Test Mean Squared Error (MSE) | Train R-Square | Test R-Square |
+|-|-|-|-|-|
+| XGBoost | 0.0031 | 0.0031 | 0.7967 | 0.7953 |
+| Random Forest | 0.0028 | 0.0030 | 0.8130 | 0.7996 |
+
+Visualizations and analysis outputs are embedded within the Jupyter Notebooks.
 
 ---
