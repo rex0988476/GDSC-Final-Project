@@ -9,9 +9,9 @@ Introduction to Deep Learning Final Project
     - Train Model
     - Test Model
 ---
-## Objective and Goal
-## Significance of LN_IC50
-## Features Used
-## Experement
-## Result
-## Conclusion
+- Objective and Goal
+- Significance of LN_IC50
+- Features Used
+- Experement
+- Result
+- Conclusion
