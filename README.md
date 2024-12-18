@@ -12,8 +12,6 @@ This repository contains the code, documentation, and visualizations for the CE6
 5. [Methods and Models](#methods-and-models)
 6. [Results](#results)
 7. [Reproducibility](#reproducibility)
-8. [Contributors](#contributors)
-9. [License](#license)
 
 ---
 
@@ -78,3 +76,8 @@ The following table summarizes the evaluation metrics for the two models used in
 Visualizations and analysis outputs are embedded within the Jupyter Notebooks.
 
 ---
+
+## Reproducibility
+To reproduce the results:
+1. Open the relevant Notebook in Google Colab using the links provided in [Usage in Google Colab](#usage-in-google-colab).
+2. Run the cells in sequence. Results will be generated directly.
