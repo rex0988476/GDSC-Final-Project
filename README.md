@@ -47,7 +47,19 @@ Source: [Dataset Link](https://www.kaggle.com/datasets/samiraalipour/genomics-of
 
 ## Methods and Models
 - **Features**:
-  - WIP.
+  - `CNA`: Data on gene copy number changes in the cell line.
+  - `Methylation`: Data on DNA methylation patterns in the cell line.
+  - `Microsatellite instability Status (MSI)`: Indicates the cell line's MSI status.
+  - `Cancer Type (matching TCGA label)`: Cancer type according to TCGA classification.
+  - `GDSC Tissue descriptor 1`: Primary tissue type classification.
+  - `GDSC Tissue descriptor 2`: Secondary tissue type classification.
+  - `PUTATIVE_TARGET`: The presumed molecular target of the drug.
+  - `PATHWAY_NAME`: The biological pathway affected by the drug.
+  - `TARGET_PATHWAY`: The biological pathway(s) targeted by the drug.
+  - `DRUG_NAME`: Name of the drug compound.
+  - `MIN_CONC`: Minimum concentration of the drug used in the experiment.
+  - `MAX_CONC`: Maximum concentration of the drug used in the experiment.
+  - `Screen Medium`: The growth medium used for culturing the cell line.
 - **Techniques**: Regression.
 - **Models**:
   - XGBoost
