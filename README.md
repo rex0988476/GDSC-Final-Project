@@ -60,8 +60,8 @@ Source: [Dataset Link](https://www.kaggle.com/datasets/samiraalipour/genomics-of
   - `Screen Medium`: The growth medium used for culturing the cell line.
 - **Techniques**: Regression.
 - **Models**:
-  - XGBoost
-  - Random Forest
+  - XGBoost.
+  - Random Forest.
 
 ---
 
