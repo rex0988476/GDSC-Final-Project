@@ -1,2 +1,6 @@
 .idea
 history
+data
+
+# for debug, doesn't have to do the version control
+model-testing.ipynb
