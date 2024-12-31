@@ -30,7 +30,7 @@ Source: [Dataset Link](https://www.kaggle.com/datasets/samiraalipour/genomics-of
 ## Usage in Google Colab
 1. **Open the Notebook**:
    - Click on the Colab badge next to the desired Notebook below to open it in Google Colab:
-     - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rex0988476/GDSC-Final-Project/blob/main/model.ipynb) `model.ipynb`
+     - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rex0988476/GDSC-Final-Project/blob/main/model.ipynb) `model.ipynb` (pre-processing and XGBoost)
 
 2. **Run the Notebook**:
    - Execute the cells sequentially to preprocess data, train models, and generate results.
@@ -58,11 +58,11 @@ Source: [Dataset Link](https://www.kaggle.com/datasets/samiraalipour/genomics-of
   - `MIN_CONC`: Minimum concentration of the drug used in the experiment.
   - `MAX_CONC`: Maximum concentration of the drug used in the experiment.
   - `Screen Medium`: The growth medium used for culturing the cell line.
-- **Techniques**: Regression.
+- **Techniques**: Regression, Neural network.
 - **Models**:
   - XGBoost.
   - Random Forest.
-
+  - DNN.
 ---
 
 ## Results
